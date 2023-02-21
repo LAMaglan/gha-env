@@ -9,9 +9,9 @@ env:
 jobs:
   test:
     env:
-      MOGODB_CLUSTER_ADDRESS: github-actions-udemy.glb9unw.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: github-actions-udemy.glb9unw.mongodb.net
       MONGODB_USERNAME: luigiam
-      MONGODB_PASSWORD: Rg8LJmN3JlXXHeP2
+      MONGODB_PASSWORD: 3euoXZjjWx0miItJ
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
